@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "515196073627",
+    "firebase_url": "https://findme-497e5.firebaseio.com",
+    "project_id": "findme-497e5",
+    "storage_bucket": "findme-497e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515196073627:android:34cfe5ffd7843009",
+        "android_client_info": {
+          "package_name": "com.leknos.findme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515196073627-5fr626ofsoloinup8sk6vu87ceq9ngbt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.leknos.findme",
+            "certificate_hash": "3fbc65b90c2ea35a2e73d809d47d001de5d325d8"
+          }
+        },
+        {
+          "client_id": "515196073627-os553eigc5u2lfro25phnk3c6e5hfm5g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.leknos.findme",
+            "certificate_hash": "d535d10d0e4cb02e778cb251f3a12285ea0a4c51"
+          }
+        },
+        {
+          "client_id": "515196073627-1fg092v4ar85u3irs8a7fnhh7h328o8n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.leknos.findme",
+            "certificate_hash": "a7b75b980b60ad45f90728ede866b4d68e93a9c8"
+          }
+        },
+        {
+          "client_id": "515196073627-bfdvvcokuedqr8fb5kd8a2t8usq8j079.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3DojbkVz8qISCiTAF8n8ks8Kny1NGZ-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515196073627-bfdvvcokuedqr8fb5kd8a2t8usq8j079.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

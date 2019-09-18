@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FindMe</string>
+    <string name="i_am_driver">I AM DRIVER</string>
+    <string name="i_am_customer">I AM CUSTOMER</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="registration">SIGN UP</string>
+    <string name="sign_out">SIGN OUT</string>
+    <string name="back_to_menu">BACK TO MENU</string>
+    <string name="title_activity_driver_map">Map</string>
+    <string name="customer_authorization">Customer Authorization</string>
+    <string name="driver_authorization">Driver Authorization</string>
+</resources>
