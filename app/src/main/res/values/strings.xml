@@ -11,4 +11,5 @@
     <string name="title_activity_driver_map">Map</string>
     <string name="customer_authorization">Customer Authorization</string>
     <string name="driver_authorization">Driver Authorization</string>
+    <string name="back"><![CDATA[<- Back]]></string>
 </resources>

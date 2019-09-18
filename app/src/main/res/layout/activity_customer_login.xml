@@ -61,7 +61,7 @@
         app:layout_constraintTop_toBottomOf="@id/sign_in" />
 
     <Button
-        android:id="@+id/back_to_menu"
+        android:id="@+id/back"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/back_to_menu"
@@ -88,5 +88,7 @@
         app:layout_constraintLeft_toRightOf="@+id/sign_google_button"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/registration" />
+
+
 
 </android.support.constraint.ConstraintLayout>

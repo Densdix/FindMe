@@ -51,7 +51,7 @@ public class DriverLoginActivity extends AppCompatActivity {
         mPassword = findViewById(R.id.password);
         mSingIn = findViewById(R.id.sign_in);
         mRegistration = findViewById(R.id.registration);
-        mBackToMenu = findViewById(R.id.back_to_menu);
+        mBackToMenu = findViewById(R.id.back);
 
         signGoogleButton = findViewById(R.id.sign_google_button);
         soutGoogleButton = findViewById(R.id.sout_google_button);
@@ -159,6 +159,9 @@ public class DriverLoginActivity extends AppCompatActivity {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d(TAG, "signInWithCredential:success");
                             FirebaseUser user = mAuth.getCurrentUser();
+                            String userUid = user.getUid();
+                            DatabaseReference currentUserDb = FirebaseDatabase.getInstance().getReference().child("Users").child("Drivers").child(userUid);
+                            currentUserDb.setValue(true);
                             updateUI(user);
                         } else {
                             // If sign in fails, display a message to the user.
